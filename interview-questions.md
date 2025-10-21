@@ -1,6 +1,6 @@
 1. What is Semantic HTML?
-Semantic HTML uses HTML elements that clearly describe their meaning and purpose to both the browser and developer. Instead of using generic <div> or <span> tags everywhere, semantic HTML uses meaningful tags like <header>, <nav>, <article>, <section>, <footer>, etc.
-Benefits:
+Semantic HTML uses HTML elements that clearly describe their meaning and purpose to both the browser and developer.
+Instead of using generic <div> or <span> tags everywhere, semantic HTML uses meaningful tags like <header>, <nav>, <article>, <section>, <footer>, etc.
 
 Improves accessibility for screen readers
 Better SEO (search engines understand content structure)
