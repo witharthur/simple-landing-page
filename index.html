@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Elevate Labs — Simple Responsive Landing Page</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header class="site-header">
     <div class="container header-inner">
@@ -28,7 +30,8 @@
     <section class="hero">
       <div class="container hero-inner">
         <h1>Build clean, responsive pages with pure HTML &amp; CSS</h1>
-        <p>Starter template demonstrating semantic HTML5, Flexbox/Grid layout, and media queries. No JavaScript required.</p>
+        <p>Starter template demonstrating semantic HTML5, Flexbox/Grid layout, and media queries. No JavaScript
+          required.</p>
         <div class="buttons">
           <a class="btn btn-primary" href="#features">See Features</a>
           <a class="btn btn-ghost" href="#contact">Get in Touch</a>
@@ -42,7 +45,8 @@
         <div class="features-grid">
           <article class="card">
             <h3>Semantic HTML5</h3>
-            <p>Uses <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> for accessible structure.</p>
+            <p>Uses <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>,
+              <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> for accessible structure.</p>
           </article>
           <article class="card">
             <h3>Flexbox &amp; Grid</h3>
@@ -60,7 +64,8 @@
       <div class="container about-inner">
         <div>
           <h2 class="section-title">About This Template</h2>
-          <p>This lightweight starter is intentionally minimal so you can focus on the core of responsive design: layout, spacing, and typography. It’s perfect for internships, tests, or quick demos.</p>
+          <p>This lightweight starter is intentionally minimal so you can focus on the core of responsive design:
+            layout, spacing, and typography. It’s perfect for internships, tests, or quick demos.</p>
           <ul class="bullets">
             <li>HTML &amp; CSS only</li>
             <li>Mobile-first media queries</li>
@@ -70,12 +75,33 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section alt">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <p>Questions or feedback? Email <a href="mailto:hello@example.com">hello@example.com</a>.</p>
+        <h2 class="section-title">Contact & Get in Touch</h2>
+        <div class="contact-wrapper">
+
+          <div class="contact-info">
+            <p>Have questions or feedback? Reach out to us via:</p>
+            <ul>
+              <li><strong>Email:</strong> <a href="mailto:hello@elevatelabs.com"
+                  class="contact-link">hello@elevatelabs.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+1234567890" class="contact-link">+1 (234) 567-890</a></li>
+              <li><strong>Address:</strong> 123 Innovation Way, Tech City</li>
+            </ul>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+
+        </div>
       </div>
     </section>
+
+
   </main>
 
   <footer class="site-footer">
@@ -93,4 +119,5 @@
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
+
 </html>
