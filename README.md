@@ -1,4 +1,4 @@
-# Simple Responsive Landing Page (HTML + CSS)
+# Responsive HTML & CSS landing page — clean, simple, and mobile-ready.
 
 This starter project meets the internship task requirements and is a great starting point for learning HTML and CSS layouts.
 
